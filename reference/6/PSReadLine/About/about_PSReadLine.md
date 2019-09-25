@@ -1402,7 +1402,7 @@ not work in PowerShell ISE. It does work in the console of Visual Studio Code.
 
 PSReadLine maintains a history file containing all the commands and data you have entered from the
 command line. This may contain sensitive data including passwords. For example, if you use the
-`ConvertTo-SecureString` cmdlet the password is logged in the history file as plain text. The
+[ConvertTo-SecureString](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-6) cmdlet the password is logged in the history file as plain text. The
 history files is a file named `$($host.Name)_history.txt`. On Windows systems the history file is
 stored at `$env:APPDATA\Microsoft\Windows\PowerShell\PSReadLine`. On non-Windows systems, the
 history files is stored at `$env:XDG_DATA_HOME/powershell/PSReadLine` or
